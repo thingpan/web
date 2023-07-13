@@ -7,10 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<jsp:include page="/include/header.jsp"/>
-로그인 페이지
-<%
 
-%>
 </body>
 </html>
