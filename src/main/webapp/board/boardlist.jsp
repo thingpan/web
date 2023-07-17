@@ -23,7 +23,14 @@
 			<th>조회수</th>
 		</tr>
 
-	
+	<!-- //ececuteupdate	1. 수행결과로 Int 타입의 값을 반환합니다.
+
+				2. SELECT 구문을 제외한 다른 구문을 수행할 때 사용되는 함수입니다. -->
+				
+			<!-- 	ExecuteQuery
+1. 수행결과로 ResultSet 객체의 값을 반환합니다.
+
+2. SELECT 구문을 수행할 때 사용되는 함수입니다. -->
 	<%
 	Connection con = DBCon.getCon();
 	Statement stmt = con.createStatement();

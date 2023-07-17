@@ -11,6 +11,11 @@
 <meta charset="UTF-8">
 <title>게시판 상세 화면</title>
 </head>
+
+​
+
+ <!-- - request.getParameter(“파라미터명”) : 파라미터값을 얻음 (리턴자료형 : String) --> -->
+
 <body>
 	<jsp:include page="/include/header.jsp" />
 	<%
