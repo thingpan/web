@@ -57,7 +57,7 @@
 		
 	</table>
 	<th colspan="2"><th colspan="2"><button onclick="location.href='<%=root%>/board/board-update.jsp?biNum=<%=biNum%>'">수정</button>
-	<button>삭제</button>
+	<button>삭제</button> 
 
 
 

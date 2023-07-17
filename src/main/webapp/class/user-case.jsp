@@ -28,7 +28,7 @@
 				String sql = "SELECT UI_NUMBER,UI_NICNAME,UI_EMAIL,UI_PHOMENUMER FROM USER_CASE";
 				ResultSet rs = stmt.executeQuery(sql);
 				while (rs.next()) {
-				%> }
+				%> 
 		<tr>
 		<td><%=rs.getString("UI_NUMBER")%>
 			<td><%=rs.getString("UI_NICNAME")%>
